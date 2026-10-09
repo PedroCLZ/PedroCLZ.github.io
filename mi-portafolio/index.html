@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#111820">
+    <meta
+      name="description"
+      content="Portafolio personal de Pedro Centeno López: proyectos personales, aprendizaje de Go y desarrollo de software."
+    >
+    <title>Pedro Centeno López — Desarrollador de software</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navegación principal">
+        <a class="brand" href="#inicio" aria-label="PedroCLZ, ir al inicio">
+          <span class="brand-mark" aria-hidden="true">P<span>.</span></span>
+          <span>PedroCLZ</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Abrir menú"
+          aria-expanded="false"
+          aria-controls="nav-links"
+        >
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links" id="nav-links">
+          <a href="#inicio">Inicio</a>
+          <a href="#sobre-mi">Sobre mí</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#tecnologias">Tecnologías</a>
+          <a class="nav-contact" href="#contacto">Contacto <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="contenido">
+      <section class="hero section container" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Desarrollador de software en formación</p>
+          <h1 id="hero-title">Construyendo soluciones <span>con código.</span></h1>
+          <p class="hero-description">
+            Estoy aprendiendo Go y creando proyectos personales para fortalecer mis habilidades en desarrollo de software, con especial interés en backend y aplicaciones.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyectos">Ver proyectos <span aria-hidden="true">↓</span></a>
+            <a class="button button-secondary" href="https://github.com/PedroCLZ" target="_blank" rel="noopener noreferrer">
+              Mi GitHub
+              <svg aria-hidden="true" viewBox="0 0 20 20" focusable="false"><path d="M11 3h6v6M17 3 9 11M15 11v5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/></svg>
+            </a>
+          </div>
+          <div class="hero-focus">
+            <span class="focus-label">Ahora mismo</span>
+            <span class="focus-divider" aria-hidden="true"></span>
+            <span class="go-mark" aria-hidden="true">Go</span>
+            <span>Aprendiendo Go</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-reveal aria-label="Ilustración de código en Go">
+          <div class="visual-topbar">
+            <div class="window-dots" aria-hidden="true"><i></i><i></i><i></i></div>
+            <span>progreso.go</span>
+            <span class="visual-language">GO</span>
+          </div>
+          <div class="code-window" aria-hidden="true">
+            <div class="code-line"><span class="line-number">01</span><span><b>package</b> main</span></div>
+            <div class="code-line"><span class="line-number">02</span><span></span></div>
+            <div class="code-line"><span class="line-number">03</span><span><b>import</b> <em>"fmt"</em></span></div>
+            <div class="code-line"><span class="line-number">04</span><span></span></div>
+            <div class="code-line"><span class="line-number">05</span><span><b>func</b> <strong>main</strong>() {</span></div>
+            <div class="code-line"><span class="line-number">06</span><span class="indent">fmt.Println(</span><em>"sigo aprendiendo"</em><span>)</span></div>
+            <div class="code-line"><span class="line-number">07</span><span>}</span></div>
+            <div class="code-cursor"><span aria-hidden="true"></span> construyendo paso a paso</div>
+          </div>
+          <div class="visual-caption"><span class="caption-icon" aria-hidden="true">{ }</span><span>Curiosidad hoy. Mejores soluciones mañana.</span></div>
+        </div>
+        <a class="scroll-cue" href="#sobre-mi"><span aria-hidden="true"></span> Desliza para explorar</a>
+      </section>
+
+      <section class="section about-section" id="sobre-mi" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">01 / Sobre mí</p>
+            <h2 id="about-title">Aprender haciendo.</h2>
+          </div>
+          <div class="about-copy" data-reveal>
+            <p class="about-lead">
+              Hola, soy <strong>Pedro Centeno López</strong>, una persona interesada en crear software útil y entender cómo funciona por dentro.
+            </p>
+            <p>
+              Actualmente estoy aprendiendo Go y desarrollando ideas de proyectos para practicar conceptos de backend y desarrollo de aplicaciones. Me interesa avanzar con curiosidad, construir soluciones prácticas y mejorar en cada iteración.
+            </p>
+            <p class="editable-note"><span aria-hidden="true">✳</span> Este espacio queda abierto para añadir mi formación, experiencia y próximos objetivos.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section projects-section container" id="proyectos" aria-labelledby="projects-title">
+        <div class="section-heading section-heading-row" data-reveal>
+          <div>
+            <p class="eyebrow">02 / En construcción</p>
+            <h2 id="projects-title">Ideas que toman forma.</h2>
+          </div>
+          <p class="section-intro">Proyectos personales para aprender, experimentar y convertir conceptos en práctica.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card" data-reveal>
+            <div class="project-preview preview-terminal" aria-label="Vista conceptual de una aplicación de tareas en consola">
+              <div class="preview-bar"><span></span><span></span><span></span><small>task-manager</small></div>
+              <div class="terminal-content">
+                <p><b>$</b> go run .</p>
+                <p class="terminal-muted">Mis tareas</p>
+                <p><span class="terminal-check">[ ]</span> Aprender Go</p>
+                <p><span class="terminal-check">[ ]</span> Crear una tarea</p>
+                <p class="terminal-prompt">› Elegir una opción<span class="blink" aria-hidden="true">_</span></p>
+              </div>
+              <span class="preview-label">Vista conceptual</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row"><h3>Go Task Manager</h3><span class="project-status"><i aria-hidden="true"></i> Idea</span></div>
+              <p>Aplicación de consola para gestionar tareas y practicar estructuras de datos y persistencia mediante JSON.</p>
+              <div class="tag-list" aria-label="Tecnologías previstas"><span>Go</span><span>JSON</span><span>CLI</span></div>
+              <span class="project-link unavailable" aria-label="El repositorio estará disponible próximamente">Repositorio próximamente <span aria-hidden="true">↗</span></span>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <div class="project-preview preview-api" aria-label="Vista conceptual de una respuesta de API">
+              <div class="api-top"><span class="api-method">GET</span><span>/api/v1/tasks</span><span class="api-code">200 OK</span></div>
+              <div class="api-code-block" aria-hidden="true">
+                <p><span>{</span></p>
+                <p class="api-indent"><em>"message"</em>: <b>"tu próxima API"</b>,</p>
+                <p class="api-indent"><em>"status"</em>: <b>"en preparación"</b></p>
+                <p><span>}</span></p>
+              </div>
+              <span class="preview-label">Vista conceptual</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row"><h3>REST API con Go</h3><span class="project-status"><i aria-hidden="true"></i> Idea</span></div>
+              <p>API para administrar tareas y practicar HTTP, JSON, definición de rutas y manejo de errores.</p>
+              <div class="tag-list" aria-label="Tecnologías previstas"><span>Go</span><span>HTTP</span><span>REST</span></div>
+              <span class="project-link unavailable" aria-label="El repositorio estará disponible próximamente">Repositorio próximamente <span aria-hidden="true">↗</span></span>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <div class="project-preview preview-inventory" aria-label="Vista conceptual de una tabla de inventario">
+              <div class="inventory-top"><span>INVENTARIO / PRODUCTOS</span><span>•••</span></div>
+              <div class="inventory-head"><span>PRODUCTO</span><span>STOCK</span><span>ESTADO</span></div>
+              <div class="inventory-row"><span><i></i> Teclado</span><span>24</span><span class="stock-ok">Disponible</span></div>
+              <div class="inventory-row"><span><i></i> Monitor</span><span>08</span><span class="stock-ok">Disponible</span></div>
+              <div class="inventory-row"><span><i></i> Ratón</span><span>02</span><span class="stock-low">Bajo</span></div>
+              <span class="preview-label">Vista conceptual</span>
+            </div>
+            <div class="project-body">
+              <div class="project-title-row"><h3>Sistema de inventario</h3><span class="project-status"><i aria-hidden="true"></i> Idea</span></div>
+              <p>Proyecto futuro para practicar una API en Go y explorar la integración con una base de datos PostgreSQL.</p>
+              <div class="tag-list" aria-label="Tecnologías previstas"><span>Go</span><span>PostgreSQL</span><span>REST</span></div>
+              <span class="project-link unavailable" aria-label="El repositorio estará disponible próximamente">Repositorio próximamente <span aria-hidden="true">↗</span></span>
+            </div>
+          </article>
+        </div>
+        <p class="project-footnote"><span aria-hidden="true">↳</span> Las tarjetas muestran ideas de proyectos, no trabajos completados. Las vistas son representaciones conceptuales.</p>
+      </section>
+
+      <section class="section tech-section" id="tecnologias" aria-labelledby="tech-title">
+        <div class="container">
+          <div class="section-heading section-heading-row" data-reveal>
+            <div>
+              <p class="eyebrow">03 / Mi caja de herramientas</p>
+              <h2 id="tech-title">Tecnologías en mi camino.</h2>
+            </div>
+            <p class="section-intro">Un recorrido en progreso. Aprender también es saber qué queda por explorar.</p>
+          </div>
+          <div class="tech-grid">
+            <article class="tech-card tech-featured" data-reveal>
+              <div class="tech-card-top"><span class="tech-icon go-icon" aria-hidden="true">Go</span><span class="tech-level"><i></i> Aprendiendo</span></div>
+              <h3>Lenguaje principal</h3>
+              <p>El lenguaje que estoy estudiando y usando como base para mis ideas de proyectos.</p>
+              <div class="tag-list"><span>Go</span></div>
+            </article>
+            <article class="tech-card" data-reveal>
+              <div class="tech-card-top"><span class="tech-icon code-icon" aria-hidden="true">&lt;/&gt;</span><span class="tech-level neutral">Base web</span></div>
+              <h3>Desarrollo web</h3>
+              <p>Tecnologías utilizadas para construir este portafolio estático.</p>
+              <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            </article>
+            <article class="tech-card" data-reveal>
+              <div class="tech-card-top"><span class="tech-icon tool-icon" aria-hidden="true">⌘</span><span class="tech-level neutral">Herramientas</span></div>
+              <h3>Flujo de trabajo</h3>
+              <p>Herramientas para organizar el código, sus cambios y el entorno de desarrollo.</p>
+              <div class="tag-list"><span>Git</span><span>GitHub</span><span>VS Code</span></div>
+            </article>
+            <article class="tech-card tech-future" data-reveal>
+              <div class="tech-card-top"><span class="tech-icon future-icon" aria-hidden="true">↗</span><span class="tech-level planned"><i></i> Por aprender</span></div>
+              <h3>En el horizonte</h3>
+              <p>Tecnologías que planeo explorar en futuros proyectos.</p>
+              <div class="tag-list"><span>PostgreSQL</span><span>Docker</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section container" id="contacto" aria-labelledby="contact-title">
+        <div class="contact-panel" data-reveal>
+          <div class="contact-copy">
+            <p class="eyebrow">04 / Hablemos</p>
+            <h2 id="contact-title">El siguiente proyecto empieza con una conversación.</h2>
+            <p>Conoce lo que estoy construyendo y acompáñame en este camino de aprendizaje.</p>
+            <a class="button button-primary" href="https://github.com/PedroCLZ" target="_blank" rel="noopener noreferrer">
+              Visitar mi GitHub
+              <svg aria-hidden="true" viewBox="0 0 20 20" focusable="false"><path d="M11 3h6v6M17 3 9 11M15 11v5a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/></svg>
+            </a>
+          </div>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span>GitHub</span>
+              <a href="https://github.com/PedroCLZ" target="_blank" rel="noopener noreferrer">github.com/PedroCLZ <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="contact-item">
+              <span>LinkedIn</span>
+              <a href="https://www.linkedin.com/in/pedro-centeno-2734a7222/?isSelfProfile=true" target="_blank" rel="noopener noreferrer">linkedin.com/in/pedro-centeno <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="contact-item">
+              <span>Correo</span>
+              <a href="mailto:pedroiclop25@gmail.com" target="_blank" rel="noopener noreferrer">pedroiclop25@gmail.com <span aria-hidden="true">↗</span></a>
+            </div>
+            <p class="editable-note"><span aria-hidden="true">✳</span> Añade aquí tu perfil de LinkedIn y tu correo cuando quieras compartirlos.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <a class="footer-brand" href="#inicio">Pedro Centeno López<span>.</span></a>
+        <p>Diseñado y construido con intención.</p>
+        <div class="footer-meta">
+          <span>© <span id="current-year"></span> PedroCLZ</span>
+          <a href="https://github.com/PedroCLZ" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
